@@ -1,0 +1,52 @@
+.sidebar {
+    display: flex;
+    width: 72px;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    bottom: 0px;
+    top: 50px;
+    border-right: 1px;
+    border-right-color: rgb(215, 199 , 199);
+    border-right-style: solid;
+    align-items: center;
+    left: 0;
+    z-index: 200;
+}
+.home,
+.explore,
+.subs,
+.originals,
+.yt-music,
+.library {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-icon, .explore-icon, .subs-icon, .originals-icon, .yt-music-icon, .library-icon {
+    height: 24px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home:hover,
+.explore:hover,
+.subs:hover,
+.originals:hover,
+.yt-music:hover,
+.library:hover {
+    
+    cursor: pointer;
+
+}
+
+.sidebar-text {
+    font-family: roboto;
+    font-size: 10px;
+    padding-top: 4px;
+}

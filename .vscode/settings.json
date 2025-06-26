@@ -1,0 +1,20 @@
+{
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onWindowChange",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "explorer.confirmDelete": false,
+    "breadcrumbs.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    }
+  }
+
+  
